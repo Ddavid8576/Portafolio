@@ -1,14 +1,27 @@
 body {
   font-family: "Raleway", sans-serif;
+  background-image: url(../img/fondo-blanco.jpg);
+  background-size: auto;
 }
 
-/* Hero Section */
 
+
+.carousel-inner img {
+  width: 100%;
+  max-height: 1000px;
+
+}
+.carousel-inner{
+  height: 500px;
+ }
+
+ /* Hero Section */
 #Hero-Section {
   background-image: url("../img/fondo1.png");
   background-repeat: no-repeat;
-  background-size: 45em;
+  background-size: 40em;
   background-position: left;
+  text-align: right;
 }
 
 /* Mis trabajos */
